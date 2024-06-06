@@ -1,0 +1,70 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "poppins", sans-serif !important;
+}
+
+.carousel-item {
+  height: 100vh;
+}
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.carousel-caption {
+  /* font-size: 16px; */
+  max-width: 100%; /* Ensure captions can wrap onto multiple lines */
+}
+
+.blue-shadow {
+  box-shadow: 0 1rem 1rem rgb(147, 147, 235); /* Adjust the color and opacity as needed */
+}
+
+.badge-right {
+  right: 20px;
+  top: 0;
+}
+
+.testimonial-item {
+  text-align: center;
+  /* margin: 20px; */
+}
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.footer-img {
+  width: 15rem;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: none; /* Removes the focus box shadow. Not recommended to remove this. */
+  --bs-accordion-btn-focus-border-color: #fff; /* Sets the border color. accordion-button doesn't have a border by the way. */
+  --bs-accordion-active-bg: #fff; /* Sets the background color. */
+}
+
+.accordion button:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: white;
+}
+
+.sticky {
+  border-left-style: solid;
+  border-left-color: rgba(63, 135, 245, 1);
+  border-left-width: 6px;
+}
+
+.sticky-alert {
+  position: sticky !important;
+  position: -webkit-sticky !important;
+  top: 0;
+  left: 0;
+}
